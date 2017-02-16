@@ -10,7 +10,11 @@
             <header>
                 <h1>Find My Weekday!</h1>
             </header>
-            <p>That date was a {{output}}!</p>
+            {% if output == false %}
+                <p>Please enter a valid date!</p>
+            {% else %}
+                <p>That date was a {{output}}!</p>
+            {% endif %}
             <p><a href="/">Try another date</a></p>
         </div>
     </body>
