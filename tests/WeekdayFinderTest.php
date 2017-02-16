@@ -27,6 +27,17 @@
             $this->assertEquals("Sunday", $result);
         }
 
+        function test_otherdaywithdash()
+        {
+
+            $new_day = new WeekdayFinder;
+            $input = "3-15-2020";
+
+            $result = $new_day->findWeekday($input);
+
+            $this->assertEquals("Sunday", $result);
+        }
+
 
     }
  ?>

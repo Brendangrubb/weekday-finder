@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/styles.css" type="text/css">
+        <title>Find My Weekday</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Find My Weekday!</h1>
+            </header>
+            <p>Enter a date to find out what day of the week it is!</p>
+
+            <form action="/result" method="post">
+                <div class="form-group">
+                    <label for="date">Enter a date with the following format(MM/DD/YYYY):</label>
+                    <input id="date" type="text" name="date">
+                </div>
+                <button class="btn btn-info" type="submit">CHECK IT!</button>
+            </form>
+        </div>
+    </body>
+</html>

@@ -21,6 +21,7 @@ This webpage will allow a user to input any date and display what day of the wee
 |--------|-----|------|
 | Enter today as date | "2/16/2017" | "Thursday" |
 | Enter any other date | "3/15/2020" | "Sunday" |
+| Enter any other date | "3-15-2020" | "Sunday" |
 
 ## Known Bugs
 
