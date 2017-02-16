@@ -16,6 +16,17 @@
             $this->assertEquals("Thursday", $result);
         }
 
+        function test_otherday()
+        {
+
+            $new_day = new WeekdayFinder;
+            $input = "3/15/2020";
+
+            $result = $new_day->findWeekday($input);
+
+            $this->assertEquals("Sunday", $result);
+        }
+
 
     }
  ?>
